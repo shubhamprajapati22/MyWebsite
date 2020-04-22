@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+<head>
+    <link rel = "stylesheet" href = "Style.css">
+    <title>login form</title>
+<script>
+function validate(){
+    var res=true;
+   var x=document.getElementById("sp");
+    var sp2 = document.getElementById("sp2");
+   if(x.value.length==0 || sp2.value.length == 0){
+    res=false;
+	alert("no filled will be empty");
+
+	}
+	return res; 
+}
+</script>
+</head>
+<body>
+<div>
+    <h1 name = "h1">LOGIN HERE</h1>
+    <img class = "ball" src = "football.png"/>
+<form action="somthing.html" method="get" onsubmit="return validate()">
+<input id=sp type="text" placeholder = "username"/><br>
+<input id = sp2 type="password" placeholder = "password"/></br>
+<input id = "sp3" type = "submit" value = "login"/>
+</form>
+</div>
+</body>
+</html>
