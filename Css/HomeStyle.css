@@ -3,7 +3,7 @@
     margin: 0px;
 }
 body{
-    background-image: radial-gradient(rgba(255, 255, 255, 0.1), rgba(255,255,255,1)), url("images/gray-laptop-computer-showing-html-codes-in-shallow-focus-160107.jpg");
+    background-image: radial-gradient(rgba(255, 255, 255, 0.1), rgba(255,255,255,1)), url("../images/gray-laptop-computer-showing-html-codes-in-shallow-focus-160107.jpg");
     height: 100vh;
     background-size: cover;
     background-position: center;
