@@ -60,3 +60,10 @@ header{
 .myimage img{
     border-radius: 50%;
 }
+
+.add{
+    text-decoration: none;
+    color: green;
+    position: absolute;
+    top: 75px;
+}
